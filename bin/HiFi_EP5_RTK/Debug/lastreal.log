@@ -1,0 +1,72 @@
+**** Incremental Build [Mon, 16 Sep 2019 16:07:12] ****
+ Project: Chain_Lib
+ Configuration: HiFi_EP5_RTK
+ Build Target: Debug
+********************************
+
+"C:\\usr\\xtensa\\XtDevTools\\install\\tools\\RD-2011.3-win32\\XtensaTools\\bin\\xt-xcc" -c -g -O0 -fmessage-length=0 -I "\"C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Chain_Lib\"" -DPROC_HiFi_EP5_RTK -DCONFIG_HiFi_EP5_RTK --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RD-2011.3-win32/HiFi_EP5_RTK/config --xtensa-core=HiFi_EP5_RTK --xtensa-params= "\"C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Chain/Tables.c\"" -o "\"C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Chain_Lib/bin/HiFi_EP5_RTK/Debug/Tables.o\"" 
+Time taken: 1780 ms 
+
+"C:\\usr\\xtensa\\XtDevTools\\install\\tools\\RD-2011.3-win32\\XtensaTools\\bin\\xt-xcc" -c -g -O0 -fmessage-length=0 -I "\"C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Chain_Lib\"" -DPROC_HiFi_EP5_RTK -DCONFIG_HiFi_EP5_RTK --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RD-2011.3-win32/HiFi_EP5_RTK/config --xtensa-core=HiFi_EP5_RTK --xtensa-params= "\"C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Chain/BiquadFilter.c\"" -o "\"C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Chain_Lib/bin/HiFi_EP5_RTK/Debug/BiquadFilter.o\"" 
+Time taken: 1880 ms 
+
+"C:\\usr\\xtensa\\XtDevTools\\install\\tools\\RD-2011.3-win32\\XtensaTools\\bin\\xt-xcc" -c -g -O0 -fmessage-length=0 -I "\"C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Chain_Lib\"" -DPROC_HiFi_EP5_RTK -DCONFIG_HiFi_EP5_RTK --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RD-2011.3-win32/HiFi_EP5_RTK/config --xtensa-core=HiFi_EP5_RTK --xtensa-params= "\"C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Chain/EQ.c\"" -o "\"C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Chain_Lib/bin/HiFi_EP5_RTK/Debug/EQ.o\"" 
+Time taken: 2100 ms 
+
+"C:\\usr\\xtensa\\XtDevTools\\install\\tools\\RD-2011.3-win32\\XtensaTools\\bin\\xt-xcc" -c -g -O0 -fmessage-length=0 -I "\"C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Chain_Lib\"" -DPROC_HiFi_EP5_RTK -DCONFIG_HiFi_EP5_RTK --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RD-2011.3-win32/HiFi_EP5_RTK/config --xtensa-core=HiFi_EP5_RTK --xtensa-params= "\"C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Chain/CrossFade.c\"" -o "\"C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Chain_Lib/bin/HiFi_EP5_RTK/Debug/CrossFade.o\"" 
+Warning: requested function F24x2MovIfTrue not inlined into calcFadeGain (edge# 180): incompatible parameter types
+Time taken: 2200 ms 
+
+"C:\\usr\\xtensa\\XtDevTools\\install\\tools\\RD-2011.3-win32\\XtensaTools\\bin\\xt-xcc" -c -g -O0 -fmessage-length=0 -I "\"C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Chain_Lib\"" -DPROC_HiFi_EP5_RTK -DCONFIG_HiFi_EP5_RTK --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RD-2011.3-win32/HiFi_EP5_RTK/config --xtensa-core=HiFi_EP5_RTK --xtensa-params= "\"C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Chain/AmplitudeProc.c\"" -o "\"C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Chain_Lib/bin/HiFi_EP5_RTK/Debug/AmplitudeProc.o\"" 
+Warning: requested function Boolx2AND not inlined into noiseGate (edge# 206): incompatible parameter types
+Warning: requested function F24x2MovIfTrue not inlined into noiseGate (edge# 207): incompatible parameter types
+Warning: requested function Boolx2OR not inlined into F24x2Div (edge# 41): incompatible parameter types
+Warning: requested function Boolx2NOT not inlined into F24x2Div (edge# 62): incompatible parameter types
+Warning: requested function F24x2MovIfTrue not inlined into F24x2Div (edge# 60): incompatible parameter types
+Warning: requested function F24x2MovIfTrue not inlined into F24x2Div (edge# 35): incompatible parameter types
+Warning: requested function F24x2MovIfTrue not inlined into F24x2Div (edge# 39): incompatible parameter types
+Warning: requested function F24x2MovIfTrue not inlined into F24x2Div (edge# 63): incompatible parameter types
+Warning: requested function F24x2MovIfTrue not inlined into F24x2Div (edge# 43): incompatible parameter types
+Warning: requested function Boolx2NOT not inlined into F24x2Log2 (edge# 85): incompatible parameter types
+Warning: requested function Boolx2AND not inlined into F24x2Log2 (edge# 82): incompatible parameter types
+Warning: requested function Boolx2NOT not inlined into F24x2Log2 (edge# 81): incompatible parameter types
+Warning: requested function Boolx2AND not inlined into F24x2Log2 (edge# 78): incompatible parameter types
+Warning: requested function Boolx2NOT not inlined into F24x2Log2 (edge# 117): incompatible parameter types
+Warning: requested function F24x2MovIfTrue not inlined into F24x2Log2 (edge# 86): incompatible parameter types
+Warning: requested function F24x2MovIfTrue not inlined into F24x2Log2 (edge# 88): incompatible parameter types
+Warning: requested function F24x2MovIfTrue not inlined into F24x2Log2 (edge# 92): incompatible parameter types
+Warning: requested function F24x2MovIfTrue not inlined into F24x2Log2 (edge# 94): incompatible parameter types
+Warning: requested function F24x2MovIfTrue not inlined into F24x2Log2 (edge# 74): incompatible parameter types
+Warning: requested function F24x2MovIfTrue not inlined into F24x2Log2 (edge# 115): incompatible parameter types
+Warning: requested function F24x2MovIfTrue not inlined into F24x2PowOf2 (edge# 131): incompatible parameter types
+Warning: requested function F24x2MovIfTrue not inlined into F24x2PowOf2 (edge# 129): incompatible parameter types
+Warning: requested function F24x2MovIfTrue not inlined into envelopeCalc (edge# 194): incompatible parameter types
+Warning: requested function F24x2MovIfTrue not inlined into gainSmoothing (edge# 201): incompatible parameter types
+Warning: requested function F24x2MovIfTrue not inlined into limiter (edge# 224): incompatible parameter types
+Warning: requested function F24x2MovIfTrue not inlined into expander (edge# 214): incompatible parameter types
+Warning: requested function F24x2MovIfTrue not inlined into compressor (edge# 218): incompatible parameter types
+Warning: requested function Boolx2OR not inlined into AmplitudeProc_Process (edge# 237): incompatible parameter types
+Warning: requested function Boolx2OR not inlined into AmplitudeProc_Process (edge# 238): incompatible parameter types
+Warning: requested function Boolx2NOT not inlined into AmplitudeProc_Process (edge# 241): incompatible parameter types
+Warning: requested function F24x2MovIfTrue not inlined into AmplitudeProc_Process (edge# 239): incompatible parameter types
+Warning: requested function F24x2MovIfTrue not inlined into AmplitudeProc_Process (edge# 235): incompatible parameter types
+Warning: requested function F24x2MovIfTrue not inlined into AmplitudeProc_Process (edge# 232): incompatible parameter types
+Warning: requested function F24x2MovIfTrue not inlined into AmplitudeProc_Process (edge# 230): incompatible parameter types
+Time taken: 2408 ms 
+
+"C:\\usr\\xtensa\\XtDevTools\\install\\tools\\RD-2011.3-win32\\XtensaTools\\bin\\xt-ar" r C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Chain_Lib/bin/HiFi_EP5_RTK/Debug/Chain_Lib.a @C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Chain_Lib/bin/HiFi_EP5_RTK/Debug/objfiles.list 
+C:\usr\xtensa\XtDevTools\install\tools\RD-2011.3-win32\XtensaTools\bin\xt-ar: creating C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Chain_Lib/bin/HiFi_EP5_RTK/Debug/Chain_Lib.a
+Time taken: 192 ms 
+
+*******Object Creation for stack usage and Static ISA Analysis info *****
+
+ You can disable it by unchecking 'create an object from library project archive file' in c/c++-> Builder preferences
+
+"C:\\usr\\xtensa\\XtDevTools\\install\\tools\\RD-2011.3-win32\\XtensaTools\\bin\\xt-ld" -r "@C:\\usr\\xtensa\\Xplorer-8.0.10-workspaces\\workspace\\Chain_Lib\\bin\\HiFi_EP5_RTK\\Debug\\objfiles.list" --xtensa-core=HiFi_EP5_RTK --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RD-2011.3-win32/HiFi_EP5_RTK/config -o "C:\\usr\\xtensa\\Xplorer-8.0.10-workspaces\\workspace\\Chain_Lib\\bin\\HiFi_EP5_RTK\\Debug\\Chain_Lib_a.o" 
+Time taken: 416 ms 
+
+******* ************** *****
+
+Build successful !!
+Total time taken: 3.845 secs
+**** Build Finished [Mon, 16 Sep 2019 16:07:16] ****

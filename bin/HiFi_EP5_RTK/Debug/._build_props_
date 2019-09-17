@@ -1,0 +1,20 @@
+
+<PROJECT>:=Chain_Lib
+<CONFIG>:=HiFi_EP5_RTK
+<TARGET>:=Debug
+<FEEDBACK>:=FBmode: Off
+
+<TIE_COMPILE>:=
+<PRE_FINAL>:=
+<OBJS>:=[C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Chain_Lib/bin/HiFi_EP5_RTK/Debug/AmplitudeProc.o, C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Chain_Lib/bin/HiFi_EP5_RTK/Debug/BiquadFilter.o, C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Chain_Lib/bin/HiFi_EP5_RTK/Debug/CrossFade.o, C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Chain_Lib/bin/HiFi_EP5_RTK/Debug/EQ.o, C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Chain_Lib/bin/HiFi_EP5_RTK/Debug/Tables.o]
+<MINSIZE_LINK>:=
+<FINAL>:=r C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Chain_Lib/bin/HiFi_EP5_RTK/Debug/Chain_Lib.a @C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Chain_Lib/bin/HiFi_EP5_RTK/Debug/objfiles.list
+
+<COMPILE_START>
+CrossFade.c:=-c -g -O0 -fmessage-length=0 -I "C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Chain_Lib" -DPROC_HiFi_EP5_RTK -DCONFIG_HiFi_EP5_RTK --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RD-2011.3-win32/HiFi_EP5_RTK/config --xtensa-core=HiFi_EP5_RTK --xtensa-params= "C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Chain/CrossFade.c" -o "C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Chain_Lib/bin/HiFi_EP5_RTK/Debug/CrossFade.o"
+main.c:=-c -g -O0 -fmessage-length=0 -I "C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Chain_Lib" -DPROC_HiFi_EP5_RTK -DCONFIG_HiFi_EP5_RTK --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RD-2011.3-win32/HiFi_EP5_RTK/config --xtensa-core=HiFi_EP5_RTK --xtensa-params= "C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Chain_Lib/main.c" -o "C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Chain_Lib/bin/HiFi_EP5_RTK/Debug/main.o"
+EQ.c:=-c -g -O0 -fmessage-length=0 -I "C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Chain_Lib" -DPROC_HiFi_EP5_RTK -DCONFIG_HiFi_EP5_RTK --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RD-2011.3-win32/HiFi_EP5_RTK/config --xtensa-core=HiFi_EP5_RTK --xtensa-params= "C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Chain/EQ.c" -o "C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Chain_Lib/bin/HiFi_EP5_RTK/Debug/EQ.o"
+Tables.c:=-c -g -O0 -fmessage-length=0 -I "C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Chain_Lib" -DPROC_HiFi_EP5_RTK -DCONFIG_HiFi_EP5_RTK --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RD-2011.3-win32/HiFi_EP5_RTK/config --xtensa-core=HiFi_EP5_RTK --xtensa-params= "C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Chain/Tables.c" -o "C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Chain_Lib/bin/HiFi_EP5_RTK/Debug/Tables.o"
+BiquadFilter.c:=-c -g -O0 -fmessage-length=0 -I "C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Chain_Lib" -DPROC_HiFi_EP5_RTK -DCONFIG_HiFi_EP5_RTK --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RD-2011.3-win32/HiFi_EP5_RTK/config --xtensa-core=HiFi_EP5_RTK --xtensa-params= "C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Chain/BiquadFilter.c" -o "C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Chain_Lib/bin/HiFi_EP5_RTK/Debug/BiquadFilter.o"
+AmplitudeProc.c:=-c -g -O0 -fmessage-length=0 -I "C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Chain_Lib" -DPROC_HiFi_EP5_RTK -DCONFIG_HiFi_EP5_RTK --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RD-2011.3-win32/HiFi_EP5_RTK/config --xtensa-core=HiFi_EP5_RTK --xtensa-params= "C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Chain/AmplitudeProc.c" -o "C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Chain_Lib/bin/HiFi_EP5_RTK/Debug/AmplitudeProc.o"
+<COMPILE_END>
